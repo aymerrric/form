@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "norse-bold";
+    src: url("./font/Norse-Bold.otf");
+}
+
+
+*{
+    background-color: grey;
+}
