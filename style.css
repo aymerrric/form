@@ -3,6 +3,7 @@
 :root {
     line-height: 1.5;
     --banner-height: 150px; 
+    --jungle-green: #596D48;
 }
 
 h1, h2, h3, h4, h5, figure, p, ol, ul {
@@ -127,4 +128,56 @@ input{
 .form-container > h2{
     padding: 10px 9.6px;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.top-right-container{
+    font-size: 1.3rem;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    font-weight: 800;
+}
+
+.top-right-container > *{
+    padding: 13px 35px;
+    width: 50ch;
+}
+
+.top-right-container > h2{
+    margin-bottom: 40px;
+}
+
+input:active{
+    border: solid lightblue 2px;
+
+}
+
+input:invalid{
+    border: solid rgb(248, 1, 1,0.7) 2px;
+
+}
+
+button{
+    background-color: var(--jungle-green);
+    padding: 10px 30px;
+    margin: 25px 35px;
+    color: white;
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-family: "Roboto";
+    box-shadow: 10px;
+}
+
+.p{
+    font-size: 0.93rem;
+    margin: 0px 35px;
+    font-family: "Roboto";
+
+}
+a{
+    color: var(--jungle-green);
+    text-decoration: none;
 }
