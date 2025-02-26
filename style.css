@@ -79,16 +79,52 @@ body{
 }
 
 .right-container{
-    background-color: rgb(218, 206, 206);
+    background-color: #e7e2e2;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
     width: 60%;
     flex: 1 1 auto;
+    font-size: 1.5rem;
 }
 
 .form-container{
-    background-color: rgb(247, 235, 235);
+    background-color: #FFFFFF;
 }
 
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    color: rgb(92,92,92);       
+}
+
+fieldset{
+    display: flex;
+    justify-items: flex-start;
+    gap: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: none;
+}
+
+input{
+    border: 0px;
+    appearance: none;
+    border: solid lightgray 2px;
+    border-radius: 5px;
+    height: 25px;
+    width: 30ch;
+}
+
+.form-container > *{
+    margin: 4px 20px;
+
+}
+
+.form-container > h2{
+    padding: 10px 9.6px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}

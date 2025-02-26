@@ -5,7 +5,9 @@
         <meta charset="utf-8">
         <link rel='stylesheet' href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    </head>
     <body>
         <div class="background-image">
             <div class="banner"><img id="logo" src="images/logo.png" alt="logo">
@@ -24,32 +26,32 @@
                 <h2>Let's do this</h2>
                 <form id="form-to-send">
                     <fieldset>
-                        <div class="first-name-container">
+                        <div class="first-name-container label-input">
                             <label for="first-name">FIRST NAME</label>
                             <input id="first-name" name="firstName" type="text" required>
                         </div>
-                        <div class="last-name-container">
+                        <div class="last-name-container label-input">
                             <label for="last-name">LAST NAME</label>
                             <input type="text" id="last-name" name="lastName" required>
                         </div>
                     </fieldset>
                     <fieldset>
-                        <div class="email-container">
+                        <div class="email-container label-input">
                             <label for="email">EMAIL</label>
                             <input type="email" id="email"  name="email" required>
                         </div>
-                        <div class="phone-container">
+                        <div class="phone-container label-input">
                             <label for="phone">PHONE NUMBER</label>
                             <input type="tel" id="phone" name="phone">
                         </div>
                     </fieldset>    
                     <fieldset>
-                        <div class="password-container">
+                        <div class="password-container label-input">
                             <label for="password">PASSWORD</label>
                             <input type="password" id="password" name="password" required>
                         </div>
-                        <div class="password-confimation-container">
-                            <label for="password-confirmation"></label>
+                        <div class="password-confimation-container label-input">
+                            <label for="password-confirmation">CONFIRM PASSWORD</label>
                             <input type="password" id="password-confirmation" name="passwordConfirmation" required>
                         </div>
                     </fieldset>
